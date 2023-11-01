@@ -1,20 +1,20 @@
-const form1 = document.querySelector("form"),
-        nextBtn = form.querySelector(".nextBtn"),
-        backBtn = form.querySelector(".backBtn"),
-        allInput = form.querySelectorAll(".first input");
+// const form1 = document.querySelector("form"),
+//         nextBtn = form.querySelector(".nextBtn"),
+//         backBtn = form.querySelector(".backBtn"),
+//         allInput = form.querySelectorAll(".first input");
 
 
-nextBtn.addEventListener("click", ()=> {
-    allInput.forEach(input => {
-        if(input.value != ""){
-            form.classList.add('secActive');
-        }else{
-            form.classList.remove('secActive');
-        }
-    })
-})
+// nextBtn.addEventListener("click", ()=> {
+//     allInput.forEach(input => {
+//         if(input.value != ""){
+//             form.classList.add('secActive');
+//         }else{
+//             form.classList.remove('secActive');
+//         }
+//     })
+// })
 
-backBtn.addEventListener("click", () => form.classList.remove('secActive'));
+// backBtn.addEventListener("click", () => form.classList.remove('secActive'));
 //   const scriptURL = 'https://script.google.com/macros/s/AKfycby6hx_q9pAwLCEJrQ9uzfT5YjI35A_66q3_86-WX768RuvbjsbrNC22laNy9tRHhntwRA/exec'
 //   const form = document.forms['submit-to-google-sheet']
 
