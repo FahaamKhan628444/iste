@@ -16,13 +16,18 @@ body{
 .container{
     position: relative;
     max-width: 900px;
-    width: 350%;
+    width: 380%;
     border-radius: 6px;
     padding: 30px;
     margin: 0 15px;
     background-color: #fff;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     height: 10%;
+}
+.foosball{
+    width: 90vh;
+    height: 70vh;
+    margin-left: 20%;
 }
 .container header{
     position: relative;
@@ -141,9 +146,12 @@ form button:hover{
 	border: none;
 	background-color: orangered;
 	color: white;
-	width: 200px;
+	width: 120px;
 	margin-top: 10px;
 	border-radius: 5px;
+    height: 40px;
+    font-size: large;
+    
 }
 #submit:hover{
 	background-color: #333333;
